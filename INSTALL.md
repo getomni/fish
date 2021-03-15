@@ -5,13 +5,13 @@
 ##### [Fisher](https://github.com/jorgebucaran/fisher)
 
 ```sh
-fisher install demartini/fish
+fisher install getomni/fish
 ```
 
 ##### [Oh My Fish](https://github.com/oh-my-fish/oh-my-fish)
 
 ```sh
-omf install https://github.com/demartini/fish
+omf install https://github.com/getomni/fish
 ```
 
 ##### [fundle](https://github.com/danhper/fundle)
@@ -19,7 +19,7 @@ omf install https://github.com/demartini/fish
 Open `~/.config/fish/config.fish` and add:
 
 ```fish
-fundle plugin demartini/fish
+fundle plugin getomni/fish
 ```
 
 Then run:
@@ -30,6 +30,6 @@ fundle install
 
 #### Install manually
 
-1. Download the latest version of [`omni.fish`](https://github.com/demartini/fish/releases/latest/download/omni.fish).
+1. Download the latest version of [`omni.fish`](https://github.com/getomni/fish/releases/latest/download/omni.fish).
 2. Place the `omni.fish` file in the `~/.config/fish/conf.d/` directory.
 3. Then reload the fish shell (e.g. `exec fish`).
